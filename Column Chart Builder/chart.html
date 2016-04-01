@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<title>Chart Maker</title>
+<link rel="stylesheet" href="css/chartStyle.css"></link>
+</head>
+<body>
+	<div id="heading"><h1>Chart Maker</h1></div>
+	<center><canvas id="canvas" width="800px" height="400px"></canvas></center>
+	<div id="formDiv">
+		<div id="divTitle">Title of the chart :
+			<input type="text" id="tfTitle">
+		</div>
+		<div id="divName">Name of the Item :
+			<input type="text" id="tfName">
+		</div>
+		<div id="divValue">Value of the Item :
+			<input type="text" id="tfValue">
+		</div>
+        <button type="button" id="btSubmit">Submit</button>
+    </div>
+	<center><button type="button" id="btDrawChart">Draw Chart</button></center>
+	<img src = "image/arrowUp.png" id="arrowUp"></img>
+	<img src = "image/arrowLeft.png" id="arrowLeft"></img>
+	<script type="text/javascript" src="js/chartJS.js"></script>
+</body>
+</html>

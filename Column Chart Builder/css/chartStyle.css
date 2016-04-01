@@ -1,0 +1,38 @@
+#heading{
+	width: auto;
+	height: 100px;
+	margin: 0 auto;
+	background: #ececec;
+}
+body{
+	width: auto;
+	height:600px;
+	margin: 0 auto;
+}
+h1{
+	margin: 0 auto;
+	text-align: center;
+}
+#btDrawChart{
+	width: 100px;
+	height: 60px;
+	margin: 20px auto;
+}
+#canvas{
+	margin: 5px;
+	background-color: #ececec;
+	border:#cccccc solid 1px;
+}
+#divTitle,#divName,#divValue,#btSubmit{
+	margin: 10px;
+}
+#formDiv{
+	padding-top: 5px;
+	width: 800px;
+	height: 140px;
+	margin: 0 auto;
+	background: #ececec;
+}
+#arrowUp,#arrowLeft{
+	display: none;
+}
