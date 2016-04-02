@@ -39,7 +39,7 @@ function drawChart()
     var howManyMarker = Math.floor((lengthOfYAxis)/scaleInterval) - 1; // -1 to omit the top marker
     for(i=1; i <= howManyMarker ; i++)
     {
-    	drawMarker(String(i*scaleInterval), originX - 35, originY - i*scaleInterval);
+        drawMarker(String(i*scaleInterval), originX - 35, originY - i*scaleInterval);
     }
 
     // find sum of all the values
@@ -57,7 +57,7 @@ function drawChart()
     var barWidth = (c.width - 150 - (arValue.length - 1) * gapBetweenBars) / arValue.length;
     if(barWidth > 50)
     {
-    	barWidth = 50;
+        barWidth = 50;
     }
 
     // draw bar chart
@@ -106,13 +106,13 @@ window.onload = function() {
     ctx = c.getContext("2d");
     arrowUp = document.getElementById("arrowUp");
     arrowLeft = document.getElementById("arrowLeft");
-}
+};
 function addItemName(txt, posx, posy)
 {
 	ctx.save();
     ctx.translate(posx, posy);
     ctx.rotate(-Math.PI/3);
-    ctx.font = "20px Arial"
+    ctx.font = "20px Arial";
     ctx.fillStyle = "#000000";
     ctx.fillText(txt, 0, 0);
     ctx.restore();
