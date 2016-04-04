@@ -22,6 +22,13 @@
 	<center><button type="button" id="btDrawChart">Draw Chart</button></center>
 	<img src = "image/arrowUp.png" id="arrowUp"></img>
 	<img src = "image/arrowLeft.png" id="arrowLeft"></img>
-	<script type="text/javascript" src="js/chartJS.js"></script>
+	<script type="text/javascript" src="js/chartManager.js"></script>
+	<script type="text/javascript">
+		var manager = new ChartManager();
+		manager.loadElements();
+		console.log(manager);
+		document.getElementById("btDrawChart").addEventListener("click",manager.drawChart);
+		document.getElementById("btSubmit").addEventListener("click",manager.getData);
+	</script>
 </body>
 </html>
