@@ -11,3 +11,8 @@ User should give input to the <b> Tiltle of the Chart</b>.<br>
 ### Step-3
   Hit the <b>Draw Chart</b> button.<br>
   Now the user can see the entire column chart with labels and title.<br>
+
+### Sample Output  
+<p align="center">
+  <img src="Column Chart Builder/screenshot_output/Chart Maker.PNG" width="550"/>
+</p>
