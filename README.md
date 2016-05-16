@@ -1,4 +1,4 @@
-# Dynamic-ColumnChart-Builder
+# Dynamic-Column-Chart-Builder
 This web application can generate a column chart based on user inputs.<br>
 Check the app online at  http://tub99.github.io/Column%20Chart%20Builder/index.html
 ## How to Run
